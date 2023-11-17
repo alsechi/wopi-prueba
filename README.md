@@ -1,5 +1,5 @@
 ### Introduccion
-
+https://github.com/alsechi/wopi-prueba
 Una automatizacion simple con la cual usa una platoforma de pago de test [Wopi](https://checkout.co.uat.wompi.dev/l/stagtest_VPOS_bdQraT) para disitntos casos de uso  usos tomando captura de pantalla en cada paso.
 
 ###Patrones
