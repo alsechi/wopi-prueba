@@ -1,9 +1,11 @@
 ### Introduccion
 
-Una automatizacion simple con la cual crea un tablero y una lista nueva dentro de la pagina [Trello](https://trello.com) tomando captura de pantalla en cada paso.
+Una automatizacion simple con la cual usa una platoforma de pago de test [Wopi](https://checkout.co.uat.wompi.dev/l/stagtest_VPOS_bdQraT) para disitntos casos de uso  usos tomando captura de pantalla en cada paso.
 
+###Patrones
+ Este fue realizado con el patron POM (Page object Model) debido a la premura de la implementacion igual maneja el lenguaje gherkin para el orden dela automatizacion
 ###Ejecucion
-
+no tenia el conocimiento  a la velocidad de la prueba para ejecutarlo con el git action(pero ya me pondre aprender eso)
 Este es el comando de ejecucion completo :
 
 `$ mvn test -Dwebdriver.driver=chrome serenity:aggregate`
@@ -28,6 +30,7 @@ Para ver los resultados de la ejecucion  dirigirnos a la carpeta de proyecto ***
 - Junit
 - SerenityBDD
 - Selenium library
-
+### Erratas
+    Aunque el xlxs tiene contemplado el error de cuando el monto no fue valido ese caso dado que muestra un mensaje en una lista que aparece por lugar  distinto no se compruebe igual que el denegado o aprobado
 ###Autor
 Alejandro Vargas **haunter42@gmail.com**
